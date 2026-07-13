@@ -94,18 +94,24 @@ html,body {
 }
 
 .btn.btn-bloomberg {
-    background-color: #f7931e;
-    border-color: #f7931e;
-    color: #111;
+    --bs-btn-bg: #f7931e;
+    --bs-btn-border-color: #f7931e;
+    --bs-btn-color: #111;
+    --bs-btn-hover-bg: #d9780b;
+    --bs-btn-hover-border-color: #d9780b;
+    --bs-btn-hover-color: #111;
+    background-color: #f7931e !important;
+    border-color: #f7931e !important;
+    color: #111 !important;
     font-weight: 700;
 }
 
 .btn.btn-bloomberg:hover,
 .btn.btn-bloomberg:focus,
 .btn.btn-bloomberg:active {
-    background-color: #d9780b;
-    border-color: #d9780b;
-    color: #111;
+    background-color: #d9780b !important;
+    border-color: #d9780b !important;
+    color: #111 !important;
 }
 
 .publication-note {
