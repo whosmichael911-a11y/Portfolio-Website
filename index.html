@@ -1,286 +1,267 @@
-<!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<!doctype html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-
-
-    <title>Michael Han</title>
+    <meta name="description" content="Michael Han — journalist, visual storyteller, and filmmaker.">
+    <link rel="stylesheet" href="css/styles.css?v=8">
+    <title>Michael Han — Complex problems. Simple solutions.</title>
 </head>
 <body>
+    <header class="site-header">
+        <a class="wordmark" href="#home" aria-label="Michael Han home">
+            <span class="wordmark-mark">MH</span>
+            <span>Michael Han</span>
+        </a>
 
-    <header class="hero d-flex flex-column align-items-center justify-content-center vh-100">
-        <h1 class="mb-0 display-1">Michael Han</h1>
-        <p class="fs-10 mb-0">Business Journalist</p>
-        <p class="fs-10">Video Specialist</p>
+        <nav class="site-nav" aria-label="Primary navigation">
+            <a class="is-active" href="#home">Home</a>
+            <a href="#journalism">Journalism</a>
+            <a href="#films">Films</a>
+            <a href="#Others">Others</a>
+        </nav>
+
+        <a class="header-link" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
     </header>
 
-    <div class="container my-5">
-        <div class="row justify-content-center g-4">
-            <div class="col-12 col-sm-6">
-
-                <div class="card">
-                <img src="assets/burning_together.jpg" class="card-img-top img-fluid" alt="Burning Together">
-                <div class="card-body">
-                    <h5 class="card-title">Burning Together</h5>
-                    <p class="card-text">Following a passionate group of people about lighting things on fire to help mitigate the bigger wildfires. Though, time has to be right otherwise serious consequences will occur. PW: jschool</p>
-                    <a href="https://vimeo.com/1190642210?share=copy&fl=sv&fe=ci#t=0" class="btn btn-vimeo">Watch it on Vimeo</a>
+    <main>
+        <section class="hero section-wrap" id="home">
+            <div class="hero-copy">
+                <p class="eyebrow">Business Journalist <span>·</span> Video Specialist <span>·</span> Filmmaker</p>
+                <h1><span class="hero-line">Complex problems.</span><br><em class="hero-line">Simple solutions.</em></h1>
+                <p class="hero-intro">I report on the forces shaping our lives and make films about the people moving through them.</p>
+                <div class="hero-actions">
+                    <a class="button button-dark" href="#journalism">Explore the work <span aria-hidden="true">↓</span></a>
+                    <a class="text-link" href="https://journalism.berkeley.edu/person/mlhan2002/" target="_blank" rel="noopener noreferrer">A little about me <span aria-hidden="true">→</span></a>
                 </div>
-                </div>
-
+                <p class="hero-note"><span class="live-dot" aria-hidden="true"></span> Based in the Bay Area · Available for select projects</p>
             </div>
 
-
-            <div class="col-12 col-sm-6">
-
-                <div class="card">
-                <img src="assets/US Battery Electric Vehicle Sales Until March 31st.png" class="card-img-top img-fluid" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">EV Sales to Rise 20% by 2027 as Iran War Fuels Demand</h5>
-                    <p class="publication-note"><strong>◆ [Not Published, UC Berkeley Business Reporting class final enterprise story]</strong></p>
-                    <p class="card-text">EV sales are expected to rise 20% by 2027 as the ongoing conflict in Iran drives demand for electric vehicles.</p>
-                    <a href="assets/EV_Enterprise_Han.pdf" class="btn btn-bloomberg" target="_blank" rel="noopener">Download the story here</a>
-                </div>
-                </div>
-
-            </div>
-
-
-            <div class="col-12 col-sm-6">
-
-                <div class="card">
-                <img src="assets/sfbiztimes.jpg" class="card-img-top img-fluid" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">The Electric Slide - San Fransico Business Times</h5>
-                    <p class="card-text">How the canceled subsidy led to slumping sales at Bay Area dealerships, impact consumers who desired an EV and are now considering gas powered cars.</p>
-                    <a href="assets/sfbiztimes_article.pdf" class="btn btn-primary" target="_blank" rel="noopener">Download the story here</a>
-                </div>
-                </div>
-
-            </div>
-            
-
-            <div class="col-12 col-sm-6">
-
-                <div class="card">
-                <img src="assets/oakland.jpg" class="card-img-top img-fluid" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">The Stakes: Hit by import tariffs, florists try not to pass higher costs on to consumers</h5>
-                    <p class="card-text">Tariffs are everywhere, and small businesses like Wisteria Rockridge are taking the toll.</p>
-                    <a href="https://oaklandnorth.net/2025/12/11/the-stakes-hit-by-import-tariffs-florists-try-not-to-pass-higher-costs-on-to-consumers/" class="btn btn btn-warning">Read it on OaklandNorth</a>
-                </div>
-                </div>
-
-            </div>
-
-             <div class="col-12 col-sm-6">
-
-                <div class="card">
-                <div id="jeffCarousel" class="carousel slide portfolio-carousel" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#jeffCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Jeff Eyet slide 1"></button>
-                        <button type="button" data-bs-target="#jeffCarousel" data-bs-slide-to="1" aria-label="Jeff Eyet slide 2"></button>
-                        <button type="button" data-bs-target="#jeffCarousel" data-bs-slide-to="2" aria-label="Jeff Eyet slide 3"></button>
+            <a class="featured-film" href="#films" aria-label="Watch Burning Together, featured film">
+                <img src="assets/BurningTogether_2026_showcase-0004.jpg" alt="A still from Burning Together">
+                <div class="featured-wash"></div>
+                <div class="featured-content">
+                    <div class="featured-topline">
+                        <span><span class="watch-dot" aria-hidden="true"></span> Newest Work</span>
+                        <span>01</span>
                     </div>
-
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="assets/Jeff_Eyet.jpg" class="d-block w-100" alt="Jeff Eyet speaking about innovation">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/Jeff/jeff_1.jpg" class="d-block w-100" alt="Jeff Eyet innovation project image">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/Jeff/jeff_2.jpg" class="d-block w-100" alt="Jeff Eyet innovation project image">
+                    <div class="featured-bottom">
+                        <p class="feature-kicker">Now showing</p>
+                        <h2>Burning<br>Together</h2>
+                        <div class="feature-meta">
+                            <span>Documentary</span>
+                            <span>UC Berkeley School of Journalism<span aria-hidden="true">↗</span></span>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#jeffCarousel" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#jeffCarousel" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
                 </div>
-                <div class="card-body">
-                    <h5 class="card-title">Big Innovation</h5>
-                    <p class="card-text">Client Work: Hass faculty Jeff Eyet talking about AI impact the workforce</p>
-                    <a href="https://www.linkedin.com/in/jeffeyet" class="btn btn-primary">Follow Jeff Eyet on LinkedIn</a>
-                </div>
-                </div>
+            </a>
+        </section>
 
+        <section class="work-section section-wrap" id="journalism">
+            <div class="section-heading">
+                <div>
+                    <p class="section-index">01 / Reporting</p>
+                    <h2>Journalism</h2>
+                </div>
             </div>
 
-            <div class="col-12 col-sm-6">
-
-                <div class="card">
-                <div id="matrixCarousel" class="carousel slide portfolio-carousel" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#matrixCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Matrix slide 1"></button>
-                        <button type="button" data-bs-target="#matrixCarousel" data-bs-slide-to="1" aria-label="Matrix slide 2"></button>
-                        <button type="button" data-bs-target="#matrixCarousel" data-bs-slide-to="2" aria-label="Matrix slide 3"></button>
-                        <button type="button" data-bs-target="#matrixCarousel" data-bs-slide-to="3" aria-label="Matrix slide 4"></button>
-                        <button type="button" data-bs-target="#matrixCarousel" data-bs-slide-to="4" aria-label="Matrix slide 5"></button>
-                        <button type="button" data-bs-target="#matrixCarousel" data-bs-slide-to="5" aria-label="Matrix slide 6"></button>
-                        <button type="button" data-bs-target="#matrixCarousel" data-bs-slide-to="6" aria-label="Matrix slide 7"></button>
-                        <button type="button" data-bs-target="#matrixCarousel" data-bs-slide-to="7" aria-label="Matrix slide 8"></button>
+            <div class="journalism-grid">
+                <div class="story-card story-card-large journalism-feature" data-journalism-feature>
+                    <div class="story-image story-image-dark">
+                        <div class="media-window">
+                            <img data-story-image src="assets/sfbiztimes.jpg" alt="The Electric Slide story image">
+                        </div>
+                        <span class="card-tag" data-story-tag>Business reporting</span>
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="assets/presize/matrix/225C97E3-D692-4C61-A0CD-416FE8F0FAD0_4_5005_c.jpeg" class="d-block w-100" alt="Matrix reenactment still 1">
+                    <div class="story-info">
+                        <div>
+                            <h3 data-story-title>The Electric Slide</h3>
+                            <p data-story-description>How the canceled subsidy led to slumping sales at Bay Area dealerships, impacting consumers who desired an EV and are now considering gas-powered cars.</p>
                         </div>
-                        <div class="carousel-item">
-                            <img src="assets/presize/matrix/4E83C962-5612-497C-8E97-356C3D576CB9_4_5005_c.jpeg" class="d-block w-100" alt="Matrix reenactment still 2">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/presize/matrix/57DEF867-2962-45CE-BAC4-EEAF8055D4DB_4_5005_c.jpeg" class="d-block w-100" alt="Matrix reenactment still 3">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/presize/matrix/5DBC424E-FC17-4955-8F99-F8F0B8324060_4_5005_c.jpeg" class="d-block w-100" alt="Matrix reenactment still 4">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/presize/matrix/75DAEF38-0B07-43DF-A237-DCB04E850B69_4_5005_c.jpeg" class="d-block w-100" alt="Matrix reenactment still 5">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/presize/matrix/8CC53AFE-F67A-4330-887B-C84E98B7C509_4_5005_c.jpeg" class="d-block w-100" alt="Matrix reenactment still 6">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/presize/matrix/916683F2-CA4D-4961-BC9D-913A884A1D2E_1_105_c.jpeg" class="d-block w-100" alt="Matrix reenactment still 7">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/presize/matrix/C9800ACA-AB2C-4AB8-8475-F77E049F2BE8_4_5005_c.jpeg" class="d-block w-100" alt="Matrix reenactment still 8">
-                        </div>
+                        <span class="arrow-circle" aria-hidden="true">↗</span>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#matrixCarousel" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#matrixCarousel" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Matrix: Reenactment</h5>
-                    <p class="card-text">Some stills I shot for the documentary showcase which used these Matrix scenes as transitions onto the next documentary feature.</p>
-                    <a href="https://vimeo.com/1190642210?share=copy&fl=sv&fe=ci#t=0" class="btn btn-vimeo">Watch it on Vimeo</a>
-                </div>
-                </div>
-
-            </div>
-
-
-             <div class="col-12 col-sm-6">
-
-                <div class="card">
-                <img src="assets/Jenner.jpg" class="card-img-top img-fluid" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">The Little Town That Did</h5>
-                    <p class="card-text">A group of passsionate women trying to preserve the archives of Jenner, CA</p>
-                    <a href="https://whosmichael911.wixsite.com/young-cinephile/post/the-little-town-that-did" class="btn btn btn-danger">Watch it on Youtube</a>
-                </div>
-                </div>
-
-            </div>
-
-             <div class="col-12 col-sm-6">
-
-                <div class="card">
-                <img src="assets/littlePeru.jpg" class="card-img-top img-fluid" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">My Little Peru</h5>
-                    <p class="card-text">Peruvian artist Juan Soto pursuing his passion for art in Mission District, San Francisco</p>
-                    <a href="https://whosmichael911.wixsite.com/young-cinephile/post/my-little-peru-cajun-and-people" class="btn btn btn-danger">Watch it on Youtube</a>
-                </div>
-                </div>
-
-            </div>
-
-             <div class="col-12 col-sm-6">
-
-                <div class="card">
-                <div id="veronicaCarousel" class="carousel slide portfolio-carousel" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#veronicaCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Veronica slide 1"></button>
-                        <button type="button" data-bs-target="#veronicaCarousel" data-bs-slide-to="1" aria-label="Veronica slide 2"></button>
-                        <button type="button" data-bs-target="#veronicaCarousel" data-bs-slide-to="2" aria-label="Veronica slide 3"></button>
-                        <button type="button" data-bs-target="#veronicaCarousel" data-bs-slide-to="3" aria-label="Veronica slide 4"></button>
-                        <button type="button" data-bs-target="#veronicaCarousel" data-bs-slide-to="4" aria-label="Veronica slide 5"></button>
-                        <button type="button" data-bs-target="#veronicaCarousel" data-bs-slide-to="5" aria-label="Veronica slide 6"></button>
-                        <button type="button" data-bs-target="#veronicaCarousel" data-bs-slide-to="6" aria-label="Veronica slide 7"></button>
-                        <button type="button" data-bs-target="#veronicaCarousel" data-bs-slide-to="7" aria-label="Veronica slide 8"></button>
+                    <div class="story-feature-actions">
+                        <a class="story-download" data-story-action href="assets/sfbiztimes_article.pdf" target="_blank" rel="noopener">Download the story here <span aria-hidden="true">↗</span></a>
                     </div>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="assets/Veronica.jpg" class="d-block w-100" alt="Veronica show trailer">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/Veronica/veronica_1.jpg" class="d-block w-100" alt="Veronica show trailer alternate image">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/Veronica/veronica_2.jpg" class="d-block w-100" alt="Veronica show trailer alternate image">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/Veronica/veronica_3.jpg" class="d-block w-100" alt="Veronica show trailer alternate image">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/Veronica/veronica_4.jpg" class="d-block w-100" alt="Veronica show trailer alternate image">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/Veronica/veronica_5.jpg" class="d-block w-100" alt="Veronica show trailer alternate image">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/Veronica/veronica_6.jpg" class="d-block w-100" alt="Veronica show trailer alternate image">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="assets/Veronica/veronica_7.jpg" class="d-block w-100" alt="Veronica show trailer alternate image">
+                </div>
+
+                <div class="story-list">
+                    <button class="story-row is-selected" type="button" data-story-target="electric-slide" aria-pressed="true">
+                        <div class="story-row-media media-window" aria-hidden="true"><img src="assets/sfbiztimes.jpg" alt=""></div>
+                        <span class="story-number">#1</span>
+                        <span class="story-row-copy"><strong>The Electric Slide</strong><small>San Francisco Business Times · 2026</small></span>
+                        <span class="row-arrow" aria-hidden="true">↗</span>
+                    </button>
+                    <button class="story-row" type="button" data-story-target="ev" aria-pressed="false">
+                        <div class="story-row-media media-window" aria-hidden="true"><img src="assets/US Battery Electric Vehicle Sales Until March 31st.png" alt=""></div>
+                        <span class="story-number">#2</span>
+                        <span class="story-row-copy"><strong>EV Sales to Rise 20% by 2027</strong><small>Enterprise reporting · 2026</small></span>
+                        <span class="row-arrow" aria-hidden="true">↗</span>
+                    </button>
+                    <button class="story-row" type="button" data-story-target="stakes" aria-pressed="false">
+                        <div class="story-row-media media-window" aria-hidden="true"><img src="assets/oakland.jpg" alt=""></div>
+                        <span class="story-number">#3</span>
+                        <span class="story-row-copy"><strong>The Stakes: Hit by import tariffs, florists try not to pass higher costs on to consumers.</strong><small>Oakland North · 2025</small></span>
+                        <span class="row-arrow" aria-hidden="true">↗</span>
+                    </button>
+                    <a class="story-row story-row-secondary" href="#contact">
+                        <span class="story-number">#4</span>
+                        <span class="story-row-copy"><strong>More stories, soon</strong><small>Notes from the field</small></span>
+                        <span class="row-arrow" aria-hidden="true">→</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="work-section section-wrap" id="visual-work">
+            <div class="section-heading">
+                <div>
+                    <p class="section-index">02 / Images in motion</p>
+                    <h2>Visual Work</h2>
+                </div>
+            </div>
+
+            <div class="visual-grid">
+                <div class="visual-card visual-card-tall" data-carousel="visual" data-autoplay="true" data-interval="20000" aria-label="Big Innovation image carousel">
+                    <div class="media-window media-carousel">
+                        <div class="media-carousel-track">
+                            <div class="media-carousel-slide"><img src="assets/Jeff_Eyet.jpg" alt="Jeff Eyet speaking about innovation"></div>
+                            <div class="media-carousel-slide"><img src="assets/Jeff/jeff_1.jpg" alt="Big Innovation project still"></div>
+                            <div class="media-carousel-slide"><img src="assets/Jeff/jeff_2.jpg" alt="Big Innovation project still"></div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#veronicaCarousel" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#veronicaCarousel" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
+                    <div class="media-carousel-controls" aria-label="Big Innovation image controls">
+                        <button class="media-carousel-button" type="button" data-carousel-prev aria-label="Previous Big Innovation image">←</button>
+                        <button class="media-carousel-button" type="button" data-carousel-next aria-label="Next Big Innovation image">→</button>
+                    </div>
+                    <div class="media-carousel-dots" aria-label="Big Innovation image selector"></div>
+                    <a class="visual-card-link" href="https://www.linkedin.com/in/jeffeyet" target="_blank" rel="noopener" aria-label="Follow Jeff Eyet on LinkedIn">
+                        <div class="visual-overlay"><span>Client work</span><strong>Big Innovation</strong><span class="arrow-circle" aria-hidden="true">↗</span></div>
+                    </a>
                 </div>
-                <div class="card-body">
-                    <h5 class="card-title">Veronica - Show Trailer</h5>
-                    <p class="card-text">A trailer dedicated to the show premiere on April 10th at UC Berkeley by TinY, a theater club by undergraduates.</p>
-                    <a href="#" class="btn btn-secondary">Ticket Soldout</a>
+                <div class="visual-card visual-card-wide" data-carousel="visual" data-autoplay="true" data-interval="20000" aria-label="The Matrix image carousel">
+                    <div class="media-window media-carousel">
+                        <div class="media-carousel-track">
+                            <div class="media-carousel-slide"><img src="assets/presize/matrix/225C97E3-D692-4C61-A0CD-416FE8F0FAD0_4_5005_c.jpeg" alt="The Matrix reenactment still"></div>
+                            <div class="media-carousel-slide"><img src="assets/presize/matrix/4E83C962-5612-497C-8E97-356C3D576CB9_4_5005_c.jpeg" alt="The Matrix reenactment still"></div>
+                            <div class="media-carousel-slide"><img src="assets/presize/matrix/57DEF867-2962-45CE-BAC4-EEAF8055D4DB_4_5005_c.jpeg" alt="The Matrix reenactment still"></div>
+                            <div class="media-carousel-slide"><img src="assets/presize/matrix/5DBC424E-FC17-4955-8F99-F8F0B8324060_4_5005_c.jpeg" alt="The Matrix reenactment still"></div>
+                            <div class="media-carousel-slide"><img src="assets/presize/matrix/75DAEF38-0B07-43DF-A237-DCB04E850B69_4_5005_c.jpeg" alt="The Matrix reenactment still"></div>
+                            <div class="media-carousel-slide"><img src="assets/presize/matrix/8CC53AFE-F67A-4330-887B-C84E98B7C509_4_5005_c.jpeg" alt="The Matrix reenactment still"></div>
+                            <div class="media-carousel-slide"><img src="assets/presize/matrix/916683F2-CA4D-4961-BC9D-913A884A1D2E_1_105_c.jpeg" alt="The Matrix reenactment still"></div>
+                            <div class="media-carousel-slide"><img src="assets/presize/matrix/C9800ACA-AB2C-4AB8-8475-F77E049F2BE8_4_5005_c.jpeg" alt="The Matrix reenactment still"></div>
+                        </div>
+                    </div>
+                    <div class="media-carousel-controls" aria-label="The Matrix image controls">
+                        <button class="media-carousel-button" type="button" data-carousel-prev aria-label="Previous The Matrix image">←</button>
+                        <button class="media-carousel-button" type="button" data-carousel-next aria-label="Next The Matrix image">→</button>
+                    </div>
+                    <div class="media-carousel-dots" aria-label="The Matrix image selector"></div>
+                    <a class="visual-card-link" href="https://vimeo.com/1190642210?share=copy&fl=sv&fe=ci#t=0" target="_blank" rel="noopener" aria-label="Watch The Matrix on Vimeo">
+                        <div class="visual-overlay"><span>Reenactment - PW: jschool </span><strong>The Matrix</strong><span class="arrow-circle" aria-hidden="true">↗</span></div>
+                    </a>
                 </div>
+                <div class="visual-card visual-card-tall visual-card-muted" data-carousel="visual" data-autoplay="true" data-interval="20000" aria-label="Veronica image carousel">
+                    <div class="media-window media-carousel">
+                        <div class="media-carousel-track">
+                            <div class="media-carousel-slide"><img src="assets/Veronica.jpg" alt="Still from Veronica show trailer"></div>
+                            <div class="media-carousel-slide"><img src="assets/Veronica/veronica_1.jpg" alt="Veronica show trailer still"></div>
+                            <div class="media-carousel-slide"><img src="assets/Veronica/veronica_2.jpg" alt="Veronica show trailer still"></div>
+                            <div class="media-carousel-slide"><img src="assets/Veronica/veronica_3.jpg" alt="Veronica show trailer still"></div>
+                            <div class="media-carousel-slide"><img src="assets/Veronica/veronica_4.jpg" alt="Veronica show trailer still"></div>
+                            <div class="media-carousel-slide"><img src="assets/Veronica/veronica_5.jpg" alt="Veronica show trailer still"></div>
+                            <div class="media-carousel-slide"><img src="assets/Veronica/veronica_6.jpg" alt="Veronica show trailer still"></div>
+                            <div class="media-carousel-slide"><img src="assets/Veronica/veronica_7.jpg" alt="Veronica show trailer still"></div>
+                        </div>
+                    </div>
+                    <div class="media-carousel-controls" aria-label="Veronica image controls">
+                        <button class="media-carousel-button" type="button" data-carousel-prev aria-label="Previous Veronica image">←</button>
+                        <button class="media-carousel-button" type="button" data-carousel-next aria-label="Next Veronica image">→</button>
+                    </div>
+                    <div class="media-carousel-dots" aria-label="Veronica image selector"></div>
+                    <a class="visual-card-link" href="#films" aria-label="View Veronica work">
+                        <div class="visual-overlay"><span>Trailer</span><strong>Veronica</strong><span class="arrow-circle" aria-hidden="true">↗</span></div>
+                    </a>
                 </div>
+            </div>
+        </section>
 
+        <section class="film-section section-wrap" id="films">
+            <div class="section-heading">
+                <div>
+                    <p class="section-index">03 / The moving image</p>
+                    <h2>Films</h2>
+                </div>
             </div>
 
-            <div class="col-12 col-sm-6">
-
-                <div class="card">
-                <img src="assets/EAO.jpg" class="card-img-top img-fluid" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Echoes Across Oceans</h5>
-                    <p class="card-text">A Chinese international student navigates between his passion and familial expectations.</p>
-                    <a href="https://whosmichael911.wixsite.com/young-cinephile/post/echoes-across-oceans-2023" class="btn btn btn-danger">Watch it on Youtube</a>
-                </div>
-                </div>
-
+            <div class="film-list film-grid">
+                <a class="film-card film-card-featured film-card-wide" href="https://vimeo.com/1190642210?share=copy&fl=sv&fe=ci#t=0" target="_blank" rel="noopener">
+                    <div class="film-card-image">
+                        <img src="assets/burning_together.jpg" alt="Still from Burning Together">
+                        <span class="film-card-index">01</span>
+                        <span class="film-card-arrow" aria-hidden="true">↗</span>
+                    </div>
+                    <div class="film-card-body">
+                        <p class="film-card-meta">Documentary · 2026</p>
+                        <h3>Burning Together</h3>
+                        <p class="film-card-description">Following people who use prescribed fire to protect communities from larger wildfires. PW: jschool</p>
+                    </div>
+                </a>
+                <a class="film-card" href="https://youtu.be/OAIuykp5UnM" target="_blank" rel="noopener">
+                    <div class="film-card-image">
+                        <img src="assets/littlePeru.jpg" alt="Still from My Little Peru">
+                        <span class="film-card-index">04</span>
+                        <span class="film-card-arrow" aria-hidden="true">↗</span>
+                    </div>
+                    <div class="film-card-body">
+                        <p class="film-card-meta">Video project</p>
+                        <h3>My Little Peru</h3>
+                        <p class="film-card-description">Peruvian artist Juan Soto pursuing his passion for art in San Francisco's Mission District.</p>
+                    </div>
+                </a>
+                <a class="film-card" href="https://youtu.be/51oEBYLFawY?si=uxotZF59AP1PkenQ" target="_blank" rel="noopener">
+                    <div class="film-card-image">
+                        <img src="assets/EAO.jpg" alt="Still from Echoes Across Oceans">
+                        <span class="film-card-index">02</span>
+                        <span class="film-card-arrow" aria-hidden="true">↗</span>
+                    </div>
+                    <div class="film-card-body">
+                        <p class="film-card-meta">Short film · 2023</p>
+                        <h3>Echoes Across Oceans</h3>
+                        <p class="film-card-description">A Chinese international student navigates passion, identity, and familial expectations.</p>
+                    </div>
+                </a>
+                <a class="film-card" href="https://youtu.be/qsgPZLRr94Y?si=wm5EwGFZKmBDbyGI" target="_blank" rel="noopener">
+                    <div class="film-card-image">
+                        <img src="assets/Jenner.jpg" alt="Still from The Little Town That Did">
+                        <span class="film-card-index">03</span>
+                        <span class="film-card-arrow" aria-hidden="true">↗</span>
+                    </div>
+                    <div class="film-card-body">
+                        <p class="film-card-meta">Documentary short · 2023</p>
+                        <h3>The Little Town That Did</h3>
+                        <p class="film-card-description">A group of women work to preserve the archives and memory of Jenner, California.</p>
+                    </div>
+                </a>
             </div>
+        </section>
 
-        </div>
-        
-    </div>
+        <section class="contact-section section-wrap" id="contact">
+            <p class="section-index">04 / Contact</p>
+            <div class="contact-content">
+                <h2>Have a story<br>in mind?</h2>
+                <a class="contact-link" href="mailto:tianxiao.han@icloud.com">tianxiao.han@icloud.com <span aria-hidden="true">↗</span></a>
+            </div>
+        </section>
+    </main>
 
-    <footer>
-        <p class="text-center mt-5">© Michael Han All Rights Reserved 2026</p>
-
+    <footer class="site-footer section-wrap">
+        <span>© 2026 Michael Han</span>
+        <span>Journalism · Visual Work · Films</span>
+        <a href="#home">Back to top ↑</a>
     </footer>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    
+    <script src="js/carousels.js?v=1"></script>
+    <script src="js/journalism.js?v=3"></script>
 </body>
 </html>
