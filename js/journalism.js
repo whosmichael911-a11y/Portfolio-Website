@@ -23,8 +23,7 @@
             action: "assets/EV_Enterprise_Han.pdf",
             actionLabel: "Download the story here",
             actionTarget: "_blank",
-            actionRel: "noopener",
-            bloomberg: true
+            actionRel: "noopener"
         },
         "electric-slide": {
             image: "assets/sfbiztimes.jpg",
@@ -35,8 +34,7 @@
             action: "assets/sfbiztimes_article.pdf",
             actionLabel: "Download the story here",
             actionTarget: "_blank",
-            actionRel: "noopener",
-            bloomberg: false
+            actionRel: "noopener"
         },
         stakes: {
             image: "assets/oakland.jpg",
@@ -47,8 +45,7 @@
             action: "https://oaklandnorth.net/2025/12/11/the-stakes-hit-by-import-tariffs-florists-try-not-to-pass-higher-costs-on-to-consumers/",
             actionLabel: "Read it on OaklandNorth",
             actionTarget: "_blank",
-            actionRel: "noopener",
-            bloomberg: false
+            actionRel: "noopener"
         }
     };
 
@@ -67,7 +64,6 @@
             action.href = story.action;
             action.target = story.actionTarget;
             action.rel = story.actionRel;
-            action.classList.toggle("btn-bloomberg", story.bloomberg === true);
             action.innerHTML = story.actionLabel + ' <span aria-hidden="true">↗</span>';
 
             rows.forEach(function (item) {
@@ -77,9 +73,9 @@
             });
 
             feature.classList.remove("is-changing");
-            window.requestAnimationFrame(function () {
-                feature.classList.add("is-changing");
-            });
+            // Commit the reset so each selection restarts the image fade.
+            void image.offsetWidth;
+            feature.classList.add("is-changing");
         });
     });
 }());
